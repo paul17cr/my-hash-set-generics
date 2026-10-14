@@ -22,19 +22,6 @@ class Program
 
         Console.WriteLine($"\nCount: {set.Count}, Capacity: {set.Capacity}");
         Console.WriteLine(set); // ToString: alle Slots, Index 0 zuerst
-
-        // TODO 2) IEnumerable: mit foreach über das Set iterieren (von hinten nach vorne)
-
-        // TODO 3) IEquatable: prüfen, ob eine neu erstellte Lehrperson mit gleichem Fach
-        // und gleichen Wochenstunden (aber anderem Namen) mit Contains gefunden wird
-
-        // TODO 4) IComparable und IComparer: Lehrpersonen aus dem Set in eine List<Lehrperson>
-        // kopieren und mit Sort() (natürliche Ordnung), FachNachnameComparer und
-        // DekadeFachNachnameComparer sortieren. Jedes Ergebnis ausgeben.
-
-        // TODO 5) Szenario Projekttag: Queue (Anmeldung, mit Peek) und Stack (Aufräumdienst)
-
-        // TODO Erweiterungen zum Üben: RandomIterator, AmountIterator, DoubleIterator,
-        // JumpingIterator, ZigZagIterator
+        
     }
 }
