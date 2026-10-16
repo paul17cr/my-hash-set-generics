@@ -4,7 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        MyHashSet set = new MyHashSet();
+        MyHashSet<Lehrperson> set = new MyHashSet<Lehrperson>();
+        MyHashSet<int> set2 = new MyHashSet<int>();
 
         // TODO 1) Datei-Einlesen: lehrpersonen.txt mit using und StreamReader einlesen.
         // Kopfzeile, Kommentarzeilen (#), falsche Zeilen und leere Zeilen überspringen.
@@ -19,6 +20,10 @@ class Program
         set.Add(anna2);
         set.Add(jose);
         set.Add(shirin);
+
+        set2.Add(2);
+        set2.Add(4);
+        set2.Add(9)
 
         Console.WriteLine($"\nCount: {set.Count}, Capacity: {set.Capacity}");
         Console.WriteLine(set); // ToString: alle Slots, Index 0 zuerst
